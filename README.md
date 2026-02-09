@@ -97,8 +97,6 @@ This preserves the integrity of frequency-domain information.
 
 ## Training Details
 
-(Verified from `resnet34-globalfft-v1-training.ipynb`)
-
 * **Loss Function:** Cross-Entropy Loss
 * **Optimizer:** AdamW (with weight decay)
 * **Learning Rate Scheduler:** ReduceLROnPlateau (monitored on validation loss)
