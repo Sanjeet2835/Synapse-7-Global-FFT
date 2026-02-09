@@ -139,16 +139,19 @@ models/README.md
 ## Repository Structure
 
 ```
-ai-vs-real/
+GENESIS-AI-Generated-Image-Detector/
 ├── README.md                  # Project overview & training details
 ├── notebooks/
 │   ├── resnet34-globalfft-v1-training.ipynb
 │   └── resnet34-globalfft-v1-evaluation.ipynb
 ├── docs/
-│   └── evaluation.md          # Detailed evaluation & analysis
-├── results/                   # Metrics, plots, reports
+│   └── evaluation.md          # Detailed evaluation methodology
+├── results/
+    └── classification report
+    └── confusion matrix
+    └── generator wise performance results                      
 ├── models/
-│   └── README.md              # External model links
+│   └── README.md              # External model weight links
 └── requirements.txt
 ```
 
