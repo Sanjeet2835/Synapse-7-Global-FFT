@@ -144,8 +144,6 @@ AI-Generated-Image-Detector/
 ├── notebooks/
 │   ├── resnet34-globalfft-v1-training.ipynb
 │   └── resnet34-globalfft-v1-evaluation.ipynb
-├── docs/
-│   └── evaluation.md          # Detailed evaluation methodology
 ├── results/
     └── classification report
     └── confusion matrix
